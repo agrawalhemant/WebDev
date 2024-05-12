@@ -1,0 +1,30 @@
+:root{
+    --primary: rgb(216, 58, 216);
+    --secondary:rgb(227, 207, 227);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: var(--primary);
+}
+ul{
+    display: flex;
+}
+li{
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    transition: all 200ms ease-in-out;
+}
+li:hover{
+    color: var(--secondary);
+}
+@media only screen and (max-width:350px){
+    ul{
+        flex-direction: column;
+    }
+}

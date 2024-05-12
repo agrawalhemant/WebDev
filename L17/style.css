@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div > p {
+    color: black;
+    font-size: 50px;
+}
+
+div p{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+#green{
+    color: green;
+}
+
+#purple{
+    color: purple;
+}
+a:hover{
+    background-color: bisque;
+}
+a:visited{
+    color: chartreuse;
+}
+
+p:first-child{
+    background-color: aqua;
+}

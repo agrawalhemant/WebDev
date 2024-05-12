@@ -1,0 +1,19 @@
+.red{
+    color: red;
+}
+
+.bg-yellow{
+    background-color: yellow;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+#firstdiv{
+    font-size: 20px;
+}
+
+#firstspan{
+    font-size: 10px;
+}
